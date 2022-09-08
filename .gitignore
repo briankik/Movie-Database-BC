@@ -1,0 +1,7 @@
+*.app
+.vscode/*.json
+.vscode/.altemplates
+.vscode/.alcache
+.snapshots
+.alcache
+numbering.txt
