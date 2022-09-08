@@ -12,6 +12,7 @@ codeunit 50101 "Backup CSV" implements Backup
         FileNameTok: Label 'movies-%1.csv', Comment = '%1 = Current Date', Locked = true;
     begin
         CreateHeader(MovieRec, CsvTextBuilder);
+
         MovieRec.FindSet();
         repeat
             CreateLine(MovieRec, CsvTextBuilder);
