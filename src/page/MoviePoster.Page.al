@@ -28,10 +28,6 @@ page 50102 "Movie Poster"
             {
                 ApplicationArea = All;
                 Caption = 'Upload Poster';
-                Promoted = true;
-                PromotedCategory = Process;
-                PromotedIsBig = true;
-                PromotedOnly = true;
                 Image = Picture;
 
                 trigger OnAction()
